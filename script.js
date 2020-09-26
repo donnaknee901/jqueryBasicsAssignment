@@ -17,8 +17,15 @@ $(document).ready(function(){
 
     });
    
-    
+    $( "#nox6" ).click(function() {
+        $( '#nox5' ).slideToggle( "slow" );
+      });
 
-    
+      $( "#nox7" ).click(function() {
+        $( 'h1' ).toggle( "slow" );
+      });
+      $( "button" ).click(function() {
+        $( "p" ).slideToggle( "slow" );
+      });
 });
 
