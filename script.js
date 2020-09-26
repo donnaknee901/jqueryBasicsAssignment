@@ -7,7 +7,7 @@ $(document).ready(function(){
         $( this ).css('color', 'red');
 
     });
-    $('#nox3').hide("extra slow");
+    $('#nox3').hide("200s");
     // $('#nox1').(function(){
     //     $( this ).slideUp();
 
