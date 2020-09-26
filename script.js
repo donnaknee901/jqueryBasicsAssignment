@@ -3,6 +3,10 @@ $(document).ready(function(){
         $( this ).slideUp();
 
     });
+    $('#nox2').hover(function(){
+        $( this ).slideDown();
+
+    });
     $('#nox2').click(function(){
         $( this ).css('color', 'red');
 
@@ -15,6 +19,7 @@ $(document).ready(function(){
         $('#nox3').show("slow");
 
     });
+
     
 });
 
