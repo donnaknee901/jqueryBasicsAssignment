@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     });
     $('#nox2').hover(function(){
-        $( this ).slideDown();
+        $( '#nox1' ).slideDown();
 
     });
     $('#nox2').click(function(){
@@ -19,6 +19,7 @@ $(document).ready(function(){
         $('#nox3').show("slow");
 
     });
+    
 
     
 });
