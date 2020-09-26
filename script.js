@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     });
     $('#nox2').hover(function(){
-        $( '#nox1' ).slideToggle(2000);
+        $( '#nox1' ).slideToggle(slow);
 
     });
     $('#nox5').hover(function(){
