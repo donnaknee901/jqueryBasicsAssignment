@@ -16,14 +16,7 @@ $(document).ready(function(){
         $( '#nox4' ).css('color', 'red');
 
     });
-    $('#nox2').hover(function(){
-        $( '#nox1' ).slideToggle(slow);
-
-    });
-    $('#nox5').hover(function(){
-        $( '#nox6' ).fadein();
-
-    });
+   
     
 
     
