@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+#wrapper{
+    height: fit-content;
+    width: 330px;
+    background-color: midnightblue;
+    border: 10px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+}
+div{
+    height: 60px;
+    width: 250px;
+    background-color: antiquewhite;
+    color: maroon;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid black;
+}
