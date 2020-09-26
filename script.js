@@ -7,7 +7,11 @@ $(document).ready(function(){
         $( this ).css('color', 'red');
 
     });
-    $('#nox3').hide();
-    
+    $('#nox3').hide("slow");
+    // $('#nox1').(function(){
+    //     $( this ).slideUp();
+
+    // });
+
 });
 
