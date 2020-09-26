@@ -7,16 +7,13 @@ $(document).ready(function(){
         $( '#nox1' ).slideDown();
 
     });
-    $('#nox2').click(function(){
-        $( this ).css('color', 'red');
-
-    });
     $('.hide').click(function(){
         $('#nox3').hide("slow");
 
     });
     $('.show').click(function(){
         $('#nox3').show("slow");
+        $( '#nox4' ).css('color', 'red');
 
     });
     
